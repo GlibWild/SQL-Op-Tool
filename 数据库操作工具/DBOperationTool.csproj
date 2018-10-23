@@ -34,8 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Dapper, Version=1.50.2.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\Dapper.dll</HintPath>
+      <HintPath>..\packages\Dapper.1.50.2\lib\net40\Dapper.dll</HintPath>
     </Reference>
     <Reference Include="DevComponents.DotNetBar2, Version=12.9.0.0, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL" />
     <Reference Include="System" />
@@ -167,6 +166,7 @@
     <EmbeddedResource Include="UI\FrmAddDBInfo.resx">
       <DependentUpon>FrmAddDBInfo.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
